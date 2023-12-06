@@ -1,5 +1,5 @@
 ---
-title: "Manuscript Title"
+title: "Array programming for Biology"
 date: null  # Defaults to date generated, but can specify like '2022-10-31'.
 keywords:
   - markdown
@@ -7,24 +7,29 @@ keywords:
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    mastodon: johndoe
-    mastodon-server: mastodon.social
-    email: john.doe@something.com
+
+  - name: Knut Dagestad Rand
+    initials: KD
     affiliations:
-      - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
-    affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Biomedical Informatics research group, Department of Informatics, University of Oslo, Oslo, Norway
+      - Centre for Bioinformatics, University of Oslo, Oslo, Norway
     corresponding: true
+    email: knutdr@math.uio.no
+  - name: Ivar Grytten
+    initials: IG
+    affiliations:
+      - Biomedical Informatics research group, Department of Informatics, University of Oslo, Oslo, Norway
+  - name: Milena Pavlović
+    initials: MP
+    affiliations:
+      - Biomedical Informatics research group, Department of Informatics, University of Oslo, Oslo, Norway
+  - name: Chakri
+    initials: C
+    affiliations:
+      - Biomedical Informatics research group, Department of Informatics, University of Oslo, Oslo, Norway
+  - name: Geir Kjetil Sandve
+    initials: GKS
+    affiliations:
+      - Biomedical Informatics research group, Department of Informatics, University of Oslo, Oslo, Norway
+      - Centre for Bioinformatics, University of Oslo, Oslo, Norway
+      - UiORealArt Convergence Environment, University of Oslo, Oslo, Norway
