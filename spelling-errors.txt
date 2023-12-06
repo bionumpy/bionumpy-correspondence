@@ -1,9 +1,8 @@
 BAM
 bioinformaticians
 bioinformatics
-bionumpy
+BioNumPy
 Chakravarthi
-Chakri
 Dagestad
 datasets
 FASTQ
@@ -15,9 +14,7 @@ Kjetil
 Knut
 Milena
 NumPy
-Pavlovic
 Pavlović
-qual
 Sandve
 UiORealArt
 VCF
