@@ -9,7 +9,7 @@
   <meta name="author" content="Milena Pavlović" />
   <meta name="author" content="Chakravarthi Kanduri" />
   <meta name="author" content="Geir Kjetil Sandve" />
-  <meta name="dcterms.date" content="2023-12-06" />
+  <meta name="dcterms.date" content="2023-12-07" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Array programming for Biology</title>
   <style>
@@ -54,11 +54,11 @@
   <meta name="citation_title" content="Array programming for Biology" />
   <meta property="og:title" content="Array programming for Biology" />
   <meta property="twitter:title" content="Array programming for Biology" />
-  <meta name="dc.date" content="2023-12-06" />
-  <meta name="citation_publication_date" content="2023-12-06" />
-  <meta property="article:published_time" content="2023-12-06" />
-  <meta name="dc.modified" content="2023-12-06T14:51:28+00:00" />
-  <meta property="article:modified_time" content="2023-12-06T14:51:28+00:00" />
+  <meta name="dc.date" content="2023-12-07" />
+  <meta name="citation_publication_date" content="2023-12-07" />
+  <meta property="article:published_time" content="2023-12-07" />
+  <meta name="dc.modified" content="2023-12-07T13:33:52+00:00" />
+  <meta property="article:modified_time" content="2023-12-07T13:33:52+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -86,9 +86,9 @@
   <meta name="citation_fulltext_html_url" content="https://bionumpy.github.io/bionumpy-correspondence/" />
   <meta name="citation_pdf_url" content="https://bionumpy.github.io/bionumpy-correspondence/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://bionumpy.github.io/bionumpy-correspondence/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://bionumpy.github.io/bionumpy-correspondence/v/b36242774236f1e754daa12eac7422e4a16d924c/" />
-  <meta name="manubot_html_url_versioned" content="https://bionumpy.github.io/bionumpy-correspondence/v/b36242774236f1e754daa12eac7422e4a16d924c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://bionumpy.github.io/bionumpy-correspondence/v/b36242774236f1e754daa12eac7422e4a16d924c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://bionumpy.github.io/bionumpy-correspondence/v/770f16212cc04126d25c0aabd01f4bc26e6319f5/" />
+  <meta name="manubot_html_url_versioned" content="https://bionumpy.github.io/bionumpy-correspondence/v/770f16212cc04126d25c0aabd01f4bc26e6319f5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://bionumpy.github.io/bionumpy-correspondence/v/770f16212cc04126d25c0aabd01f4bc26e6319f5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -103,13 +103,6 @@
 <header id="title-block-header">
 <h1 class="title">Array programming for Biology</h1>
 </header>
-<p><small><em>
-This manuscript
-(<a href="https://bionumpy.github.io/bionumpy-correspondence/v/b36242774236f1e754daa12eac7422e4a16d924c/">permalink</a>)
-was automatically generated
-from <a href="https://github.com/bionumpy/bionumpy-correspondence/tree/b36242774236f1e754daa12eac7422e4a16d924c">bionumpy/bionumpy-correspondence@b362427</a>
-on December 6, 2023.
-</em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>Knut Dagestad Rand</strong>
@@ -143,24 +136,27 @@ Biomedical Informatics research group, Department of Informatics, University of 
 or email to
 Knut Dagestad Rand &lt;knutdr@math.uio.no&gt;.</p>
 </div>
-<h1 id="array-programming-for-biology">Array Programming for Biology</h1>
-<p>To the editor:</p>
-<p>Python is a widely used programming language for scientific computing, in large part due to the powerful <em>array programming</em> library NumPy <span class="citation" data-cites="numpy">[<a href="#ref-numpy" role="doc-biblioref"><strong>numpy?</strong></a>]</span>, which makes it easy to write clean, vectorized and computationally efficient code for handling large datasets. A challenge with using array programming in biology is that the data is often non-numeric and variable-length (e.g. DNA sequences), inhibiting out-of-the-box use of standard array programming techniques.This may push bioinformaticians to instead rely on complex, custom pipelines of UNIX commands that are non-transparent and error-prone. Furthermore, the impracticality of developing efficient code directly in high-level languages like Python has led to tool developers almost exclusively relying on low-level languages like C and C++, making it more difficult for computational biologists to understand and contribute to core methods in the field.</p>
+<p>Python is a widely used programming language for scientific computing, in large part due to the powerful <em>array programming</em> library NumPy <span class="citation" data-cites="1LexfAxj">[<a href="#ref-1LexfAxj" role="doc-biblioref">1</a>]</span>, which makes it easy to write clean, vectorized and computationally efficient code for handling large datasets. A challenge with using array programming in biology is that the data is often non-numeric and variable-length (e.g. DNA sequences), inhibiting out-of-the-box use of standard array programming techniques. This may push bioinformaticians to instead rely on complex, custom pipelines of UNIX commands that are non-transparent and error-prone. Furthermore, the impracticality of developing efficient code directly in high-level languages like Python has led to tool developers almost exclusively relying on low-level languages like C and C++, making it more difficult for computational biologists to understand and contribute to core methods in the field.</p>
 <p>We present the BioNumPy package, which enables efficient and intuitive array programming on biological data in Python. This is achieved by storing biological datasets in data structures built on top of underlying NumPy arrays (see Supplementary Material). BioNumPy supports a broad range of bioinformatics analyses, with the main philosophy being that data structures should behave as closely as possible to standard numeric NumPy arrays. This means that BioNumPy is easy to learn for users familiar with NumPy or with array programming languages like R and Matlab. BioNumPy is open-source and freely available at https://github.com/bionumpy/bionumpy/, and can be installed through the Python package manager Pip. BioNumPy comes with extensive documentation and a user guide that makes it easy to use for a wide range of molecular biology datasets and problems.</p>
 <p>BioNumPy is able to read and write biological datasets (e.g FASTQ, BAM, or VCF-files) directly to/from NumPy-like data structures, providing efficient access to the data through an intuitive and easy-to-use API. The data is then processed and analysed efficiently using a NumPy-like interface.</p>
-<p>In Figure <a href="#fig:figure1">1</a>, we showcase BioNumPy by reading sequenced reads from a FASTQ file and plotting the average base quality per read position. Both the sequences and base qualities are represented in NumPy-compatible arrays, so that NumPy-functionality like e.g. np.mean can be used.</p>
+<p>Figure <a href="#fig:figure1">1</a> we showcase BioNumPy by reading sequenced reads from a FASTQ file and plotting the average base quality per read position. Both the sequences and base qualities are represented in NumPy-compatible arrays, so that NumPy-functionality like e.g. <em>np.mean</em> can be used.</p>
 <div id="fig:figure1" class="fignos">
 <figure>
-<img src="images/figure1-v2.png" alt="Figure 1: Example of BioNumPy usage" />
-<figcaption aria-hidden="true"><span>Figure 1:</span> Example of BioNumPy usage</figcaption>
+<img src="images/figure1-v2.png" alt="Figure 1: Example of BioNumPy usage. We read a chunk from a FASTQ file, use NumPy to get the average base quality per read position and use Plotly to plot the results." />
+<figcaption aria-hidden="true"><span>Figure 1:</span> <strong>Example of BioNumPy usage</strong>. We read a chunk from a FASTQ file, use NumPy to get the average base quality per read position and use Plotly to plot the results.</figcaption>
 </figure>
 </div>
-<p>We show through a range of experiments that BioNumPy is considerably faster than existing Python packages for common bioinformatics tasks and, in many cases, as fast as tools written in C/C++ (see Supplementary Material). We also showcase how BioNumPy enables seamless machine learning on biological sequence data by reproducing parts of a recent machine learning benchmark study using only X lines of code (as compared to Y lines in the original implementation). (Supplementary Material).</p>
+<p>We show through a range of experiments that BioNumPy is considerably faster than existing Python packages for common bioinformatics tasks and, in many cases, as fast as tools written in C/C++ (see Supplementary Material). We also showcase how BioNumPy enables seamless machine learning on biological sequence data by reproducing parts of a recent machine learning benchmark study <span class="citation" data-cites="16cFkJ3Sc">[<a href="#ref-16cFkJ3Sc" role="doc-biblioref">2</a>]</span> using very few lines of code (Supplementary Material).</p>
 <p>In conclusion, we believe that BioNumPy bridges a long-lasting gap by making array programming practical for the field of biology.</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
-<div id="refs" role="doc-bibliography">
-
+<div id="refs" class="references csl-bib-body" role="doc-bibliography">
+<div id="ref-1LexfAxj" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline"><strong>Array programming with NumPy</strong> <div class="csl-block">Charles R Harris, KJarrod Millman, Stéfan J van der Walt, Ralf Gommers, Pauli Virtanen, David Cournapeau, Eric Wieser, Julian Taylor, Sebastian Berg, Nathaniel J Smith, … Travis E Oliphant</div> <em>Nature</em> (2020-09-16) <a href="https://doi.org/ghbzf2">https://doi.org/ghbzf2</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41586-020-2649-2">10.1038/s41586-020-2649-2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32939066">32939066</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7759461">PMC7759461</a></div></div>
+</div>
+<div id="ref-16cFkJ3Sc" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline"><strong>Benchmarking of deep neural networks for predicting personal gene expression from DNA sequence highlights shortcomings</strong> <div class="csl-block">Alexander Sasse, Bernard Ng, Anna E Spiro, Shinya Tasaki, David A Bennett, Christopher Gaiteri, Philip L De Jager, Maria Chikina, Sara Mostafavi</div> <em>Nature Genetics</em> (2023-11-30) <a href="https://doi.org/gs7569">https://doi.org/gs7569</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41588-023-01524-6">10.1038/s41588-023-01524-6</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/38036778">38036778</a></div></div>
+</div>
 </div>
 <!-- default theme -->
 
