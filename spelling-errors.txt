@@ -15,6 +15,7 @@ Knut
 Milena
 NumPy
 Pavlović
+Plotly
 Sandve
 UiORealArt
 VCF
