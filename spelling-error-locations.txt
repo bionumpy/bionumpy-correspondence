@@ -35,4 +35,9 @@ content/01.abstract.md:14:bioinformatics
 content/01.abstract.md:14:BioNumPy
 content/01.abstract.md:14:BioNumPy
 content/01.abstract.md:16:BioNumPy
-content/01.abstract.md:19:numpy
+content/01.abstract.md:18:benchmarking
+content/01.abstract.md:18:benchmarking
+content/01.abstract.md:18:snakemake
+content/01.abstract.md:20:bionumpy
+content/01.abstract.md:20:bionumpy
+content/01.abstract.md:22:numpy

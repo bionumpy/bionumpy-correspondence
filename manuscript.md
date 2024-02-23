@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2023-12-07'
+date-meta: '2024-02-23'
 author-meta:
 - Knut Dagestad Rand
 - Ivar Grytten
@@ -23,11 +23,11 @@ header-includes: |
   <meta name="citation_title" content="Array programming for Biology" />
   <meta property="og:title" content="Array programming for Biology" />
   <meta property="twitter:title" content="Array programming for Biology" />
-  <meta name="dc.date" content="2023-12-07" />
-  <meta name="citation_publication_date" content="2023-12-07" />
-  <meta property="article:published_time" content="2023-12-07" />
-  <meta name="dc.modified" content="2023-12-07T13:33:52+00:00" />
-  <meta property="article:modified_time" content="2023-12-07T13:33:52+00:00" />
+  <meta name="dc.date" content="2024-02-23" />
+  <meta name="citation_publication_date" content="2024-02-23" />
+  <meta property="article:published_time" content="2024-02-23" />
+  <meta name="dc.modified" content="2024-02-23T14:54:35+00:00" />
+  <meta property="article:modified_time" content="2024-02-23T14:54:35+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://bionumpy.github.io/bionumpy-correspondence/" />
   <meta name="citation_pdf_url" content="https://bionumpy.github.io/bionumpy-correspondence/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://bionumpy.github.io/bionumpy-correspondence/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://bionumpy.github.io/bionumpy-correspondence/v/770f16212cc04126d25c0aabd01f4bc26e6319f5/" />
-  <meta name="manubot_html_url_versioned" content="https://bionumpy.github.io/bionumpy-correspondence/v/770f16212cc04126d25c0aabd01f4bc26e6319f5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://bionumpy.github.io/bionumpy-correspondence/v/770f16212cc04126d25c0aabd01f4bc26e6319f5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://bionumpy.github.io/bionumpy-correspondence/v/c6351b42e6982ac8494dd000821de31c81253c9d/" />
+  <meta name="manubot_html_url_versioned" content="https://bionumpy.github.io/bionumpy-correspondence/v/c6351b42e6982ac8494dd000821de31c81253c9d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://bionumpy.github.io/bionumpy-correspondence/v/c6351b42e6982ac8494dd000821de31c81253c9d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -141,6 +141,9 @@ We show through a range of experiments that BioNumPy is considerably faster than
 
 In conclusion, we believe that BioNumPy bridges a long-lasting gap by making array programming practical for the field of biology.
 
+*Data Availability*: All data used for benchmarking are public and automatically downloaded as part of the benchmarking snakemake pipeline
+
+*Code Availability*: All code is available at https://github.com/bionumpy/bionumpy
 
 [@numpy]: doi:10.1038/s41586-020-2649-2
 [@sasse]: doi:10.1038/s41588-023-01524-6
