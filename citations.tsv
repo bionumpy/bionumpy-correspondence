@@ -1,3 +1,7 @@
 input_id	dealiased_id	standard_id	short_id
 numpy	doi:10.1038/s41586-020-2649-2	doi:10.1038/s41586-020-2649-2	1LexfAxj
+cython	doi:10.1109/MCSE.2010.118	doi:10.1109/mcse.2010.118	1CIMLrpdZ
+numba	doi:10.1145/2833157.2833162	doi:10.1145/2833157.2833162	189xgFrlN
+awkwardarray	doi:10.5281/zenodo.4341376	doi:10.5281/zenodo.4341376	vdaynv2Y
+biopython	doi:10.1093/bioinformatics/btp163	doi:10.1093/bioinformatics/btp163	Wr9XXPJJ
 sasse	doi:10.1038/s41588-023-01524-6	doi:10.1038/s41588-023-01524-6	16cFkJ3Sc
