@@ -26,8 +26,8 @@ header-includes: |
   <meta name="dc.date" content="2024-05-31" />
   <meta name="citation_publication_date" content="2024-05-31" />
   <meta property="article:published_time" content="2024-05-31" />
-  <meta name="dc.modified" content="2024-05-31T09:48:23+00:00" />
-  <meta property="article:modified_time" content="2024-05-31T09:48:23+00:00" />
+  <meta name="dc.modified" content="2024-05-31T09:54:03+00:00" />
+  <meta property="article:modified_time" content="2024-05-31T09:54:03+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://bionumpy.github.io/bionumpy-correspondence/" />
   <meta name="citation_pdf_url" content="https://bionumpy.github.io/bionumpy-correspondence/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://bionumpy.github.io/bionumpy-correspondence/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://bionumpy.github.io/bionumpy-correspondence/v/6f522d1c72c67049e08beb8c40a74986da69d26c/" />
-  <meta name="manubot_html_url_versioned" content="https://bionumpy.github.io/bionumpy-correspondence/v/6f522d1c72c67049e08beb8c40a74986da69d26c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://bionumpy.github.io/bionumpy-correspondence/v/6f522d1c72c67049e08beb8c40a74986da69d26c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://bionumpy.github.io/bionumpy-correspondence/v/a30880dc508fb4006eb27b69114f1ec2bd064e8b/" />
+  <meta name="manubot_html_url_versioned" content="https://bionumpy.github.io/bionumpy-correspondence/v/a30880dc508fb4006eb27b69114f1ec2bd064e8b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://bionumpy.github.io/bionumpy-correspondence/v/a30880dc508fb4006eb27b69114f1ec2bd064e8b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -133,7 +133,7 @@ BioNumPy is able to read and write biological datasets (e.g FASTQ, BAM, or VCF-f
 
 Figure @fig:figure1 we showcase BioNumPy by reading sequenced reads from a FASTQ file and plotting the average base quality per read position. Both the sequences and base qualities are represented in NumPy-compatible arrays, so that NumPy-functionality like e.g. *np.mean* can be used. 
 
-![**Example of BioNumPy usage**. We read a chunk from a FASTQ file, use NumPy to get the average base quality per read position and use Plotly to plot the results.](images/figure1-v2.png){#fig:figure1}
+![**Example of BioNumPy usage**. We read a chunk from a FASTQ file, use NumPy to get the average base quality per read position and use Plotly to plot the results.](images/figure1-v3.png){#fig:figure1}
 
 
  
