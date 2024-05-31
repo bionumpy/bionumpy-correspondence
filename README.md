@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/bionumpy/bionumpy-correspondence/tree/gh-pages) branch hosts the contents of this directory at <https://bionumpy.github.io/bionumpy-correspondence/>.
-The permalink for this webpage version is <https://bionumpy.github.io/bionumpy-correspondence/v/a30880dc508fb4006eb27b69114f1ec2bd064e8b/>.
+The permalink for this webpage version is <https://bionumpy.github.io/bionumpy-correspondence/v/2e959526c4466570373944307dbfb0208b9f9f1b/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://bionumpy.github.io/bionumpy-correspondence/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`a30880dc508fb4006eb27b69114f1ec2bd064e8b`](https://github.com/bionumpy/bionumpy-correspondence/commit/a30880dc508fb4006eb27b69114f1ec2bd064e8b).
+[`2e959526c4466570373944307dbfb0208b9f9f1b`](https://github.com/bionumpy/bionumpy-correspondence/commit/2e959526c4466570373944307dbfb0208b9f9f1b).
