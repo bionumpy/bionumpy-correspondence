@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-02-23'
+date-meta: '2024-05-31'
 author-meta:
 - Knut Dagestad Rand
 - Ivar Grytten
@@ -23,11 +23,11 @@ header-includes: |
   <meta name="citation_title" content="Array programming for Biology" />
   <meta property="og:title" content="Array programming for Biology" />
   <meta property="twitter:title" content="Array programming for Biology" />
-  <meta name="dc.date" content="2024-02-23" />
-  <meta name="citation_publication_date" content="2024-02-23" />
-  <meta property="article:published_time" content="2024-02-23" />
-  <meta name="dc.modified" content="2024-02-23T14:54:35+00:00" />
-  <meta property="article:modified_time" content="2024-02-23T14:54:35+00:00" />
+  <meta name="dc.date" content="2024-05-31" />
+  <meta name="citation_publication_date" content="2024-05-31" />
+  <meta property="article:published_time" content="2024-05-31" />
+  <meta name="dc.modified" content="2024-05-31T09:48:23+00:00" />
+  <meta property="article:modified_time" content="2024-05-31T09:48:23+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://bionumpy.github.io/bionumpy-correspondence/" />
   <meta name="citation_pdf_url" content="https://bionumpy.github.io/bionumpy-correspondence/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://bionumpy.github.io/bionumpy-correspondence/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://bionumpy.github.io/bionumpy-correspondence/v/c6351b42e6982ac8494dd000821de31c81253c9d/" />
-  <meta name="manubot_html_url_versioned" content="https://bionumpy.github.io/bionumpy-correspondence/v/c6351b42e6982ac8494dd000821de31c81253c9d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://bionumpy.github.io/bionumpy-correspondence/v/c6351b42e6982ac8494dd000821de31c81253c9d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://bionumpy.github.io/bionumpy-correspondence/v/6f522d1c72c67049e08beb8c40a74986da69d26c/" />
+  <meta name="manubot_html_url_versioned" content="https://bionumpy.github.io/bionumpy-correspondence/v/6f522d1c72c67049e08beb8c40a74986da69d26c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://bionumpy.github.io/bionumpy-correspondence/v/6f522d1c72c67049e08beb8c40a74986da69d26c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
